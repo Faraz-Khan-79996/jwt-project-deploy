@@ -17,6 +17,7 @@ app.use(cookieParser());
 
 // view engine
 app.set('view engine', 'ejs');
+app.set("views" , path.join(__dirname,"/views"));
 
 // database connection
 // const dbURI = 'mongodb+srv://shaun:test1234@cluster0.del96.mongodb.net/node-auth';
