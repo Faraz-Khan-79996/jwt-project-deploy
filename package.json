@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "20.11.0"
+  },
   "name": "node-express-jwt-auth",
   "version": "1.0.0",
   "description": "",
